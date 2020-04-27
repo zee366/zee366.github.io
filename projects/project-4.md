@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/477Project_01.jpg
+image: images/searchsp.gif
 title: Graph Search Algorithms
 permalink: projects/graphsearchalgorithm
 # All dates must be YYYY-MM-DD format!
