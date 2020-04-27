@@ -12,7 +12,7 @@ labels:
 summary: My team obtained the highest mark in the class with our solar system simulation that contains moving planets, asteroids, particle systems and space ships that chase each other.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/477Project_02.jpg">
   <img class="ui image" src="../images/477Project_03.jpg">
   <img class="ui image" src="../images/477Project_04.jpg">
