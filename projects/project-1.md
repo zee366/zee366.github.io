@@ -13,31 +13,21 @@ summary: My team obtained the highest mark in the class with our solar system si
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/477Project_02.jpg">
+  <img class="ui image" src="../images/477Project_03.jpg">
+  <img class="ui image" src="../images/477Project_04.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This space simulation was our final project for the Animation for Computer Games course at Concordia University. The simulation features planets, asteroids and "particle storms" that orbit around the sun. The simulation also features space fighter ships that chase down and kill UFOs on contact. The camera can be controlled by the user to fly around the scene, or stay locked on one of the flying spaceships/UFOs. The simulation also features a 2nd viewport in the top right that shows the scene from one of the spaceship's point of view.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+In this project I was responsible for implementing the 2nd viewport and all the controls related to the camera: moving through the scene, switching camera target etc.
 
-Here is some code that illustrates how we read values from the line sensors:
+Where to improve: 
+Spaceships rotations are performed using matrix multiplication and Euler angles. The result is harsh motion as the spaceships "snap" into a rotation from one frame to the next. Rotation smoothness could be improved with the use of quaternions and a slerp method.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+Code readability suffers from the use of magic numbers. By replacing these with named constants we could increase comprehension and clarify intention.
 
-Source code available at the [project repository](https://github.com/zee366/Comp477TeamProject).
+Full source code is available at the [project repository](https://github.com/zee366/Comp477TeamProject).
 
 
 
