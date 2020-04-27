@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/RiotBusters_01.jpg
 title: Riot Busters
 permalink: projects/riotbusters
 # All dates must be YYYY-MM-DD format!
