@@ -12,11 +12,9 @@ labels:
 summary: My team obtained the highest mark in the class with our solar system simulation that contains moving planets, asteroids, particle systems and space ships that chase each other.
 ---
 
-<div class="ui medium rounded images">
-  <img class="ui image" src="../images/477Project_02.jpg">
-  <img class="ui image" src="../images/477Project_03.jpg">
-  <img class="ui image" src="../images/477Project_04.jpg">
-</div>
+<img class="ui image" src="../images/477Project_02.jpg">
+<img class="ui image" src="../images/477Project_03.jpg">
+<img class="ui image" src="../images/477Project_04.jpg">
 
 This space simulation was our final project for the Animation for Computer Games course at Concordia University. The simulation features planets, asteroids and "particle storms" that orbit around the sun. The simulation also features space fighter ships that chase down and kill UFOs on contact. The camera can be controlled by the user to fly around the scene, or stay locked on one of the flying spaceships/UFOs. The simulation also features a 2nd viewport in the top right that shows the scene from one of the spaceship's point of view.
 
