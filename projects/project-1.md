@@ -27,7 +27,7 @@ Spaceships rotations are performed using matrix multiplication and Euler angles.
 
 Code readability suffers from the use of magic numbers. By replacing these with named constants we could increase comprehension and clarify intention.
 
-Full source code is available at the [project repository](https://github.com/zee366/Comp477TeamProject).
+Full source code is available at the [project repository](https://github.com/zee366/SpaceSimulation).
 
 
 
