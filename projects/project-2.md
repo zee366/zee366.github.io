@@ -12,7 +12,10 @@ labels:
 summary: Tower Defense meets Auto-Battler in this team project for Introduction to Game Development at Concordia University
 ---
 
-<img class="ui medium right floated rounded image" src="../images/sgtr_02.jpg">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/sgtr_02.jpg">
+  <img class="ui image" src="../images/sgtr_03.jpg">
+</div>
 
 Safeguard the Realm is a game created with Unity as a final project for Introduction to Game Development at Concordia University. The game is a "Tower Defense" game with elements of auto-battlers like Teamfight Tactics, Auto-Chess or Hearthstone's Battlegrounds game mode. The goal of the game is to protect your castle from hordes of goblins that run single file down a road. By placing defensive towers in strategic places along the road, you can keep your castle safe. Players can purchase "3-of-a-kind" of a specific tower type to upgrade it.
 
