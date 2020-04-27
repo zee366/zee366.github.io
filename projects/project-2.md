@@ -1,25 +1,26 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/sgtr_01.jpg
 title: Vacay
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-12-19
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Unity
+  - C#
+summary: Tower Defense meets Auto-Battler in this team project for Introduction to Game Development at Concordia University
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/sgtr_02.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Safeguard the Realm is a game created with Unity as a final project for Introduction to Game Development at Concordia University. The game is a "Tower Defense" game with elements of auto-battlers like Teamfight Tactics, Auto-Chess or Hearthstone's Battlegrounds game mode. The goal of the game is to protect your castle from hordes of goblins that run single file down a road. By placing defensive towers in strategic places along the road, you can keep your castle safe. Players can purchase "3-of-a-kind" of a specific tower type to upgrade it.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+The game has 3 levels with progressively harder difficulty due to an increase in the the number of roads that the goblins will run down.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+In this project I was responsible for:
+The creation of level 2. I pieced together the art assets, added the splines for monster movement, created particle systems for some static objects like houses and water wheels, and added lighting.
+I implemented the camera controller, allowing the user to scroll the camera through the scene, zoom in or out and rotate around the center target in 90 degree steps.
+I created 2 of our advanced towers: The boomerang tower which launches a projectile on a spline and deals damage to multiple targets, and the lightning tower with its crackling lightning damage effect, which deals damage over time.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Full source available at: <a href="https://github.com/zee366/SafeguardTheRealm">Safeguard The Realm</a>
