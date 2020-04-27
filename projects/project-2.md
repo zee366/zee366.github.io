@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/sgtr_01.jpg
-title: Vacay
-permalink: projects/vacay
+title: Safeguard the Realm!
+permalink: projects/safeguardtherealm
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-19
 labels:
