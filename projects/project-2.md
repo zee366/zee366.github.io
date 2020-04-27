@@ -22,5 +22,6 @@ In this project I was responsible for:
 The creation of level 2. I pieced together the art assets, added the splines for monster movement, created particle systems for some static objects like houses and water wheels, and added lighting.
 I implemented the camera controller, allowing the user to scroll the camera through the scene, zoom in or out and rotate around the center target in 90 degree steps.
 I created 2 of our advanced towers: The boomerang tower which launches a projectile on a spline and deals damage to multiple targets, and the lightning tower with its crackling lightning damage effect, which deals damage over time.
+<img class="ui medium right floated rounded image" src="../images/lightningTower.gif">
  
 Full source available at: <a href="https://github.com/zee366/SafeguardTheRealm">Safeguard The Realm</a>
