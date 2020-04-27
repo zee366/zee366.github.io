@@ -25,4 +25,4 @@ I implemented the camera controller, allowing the user to scroll the camera thro
 I created 2 of our advanced towers: The boomerang tower which launches a projectile on a spline and deals damage to multiple targets, and the lightning tower with its crackling lightning damage effect, which deals damage over time.
 <img class="ui medium right floated rounded image" src="../images/lightningTower.gif">
  
-Full source available at: <a href="https://github.com/zee366/SafeguardTheRealm">Safeguard The Realm</a>
+Full source available at: [project repository](https://github.com/zee366/SafeguardTheRealm)
