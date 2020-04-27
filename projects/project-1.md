@@ -1,16 +1,15 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/477Project_01.jpg
+title: Space Simulation
+permalink: projects/spacesimulation
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-12-19
 labels:
-  - Robotics
-  - Arduino
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - OpenGL
+summary: My team obtained the highest mark in the class with our solar system simulation that contains moving planets, asteroids, particle systems and space ships that chase each other.
 ---
 
 <div class="ui small rounded images">
@@ -38,7 +37,7 @@ byte ADCRead(byte ch)
 }
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Source code available at the [project repository](https://github.com/zee366/Comp477TeamProject).
 
 
 
