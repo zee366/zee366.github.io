@@ -12,7 +12,7 @@ labels:
 summary: Tower Defense meets Auto-Battler in this team project for Introduction to Game Development at Concordia University
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/sgtr_02.jpg">
   <img class="ui image" src="../images/sgtr_03.jpg">
 </div>
