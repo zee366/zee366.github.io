@@ -25,6 +25,7 @@ Created tooltips for destructible objects. The player can view info about an obj
 ```
 transform.position = Camera.main.WorldToScreenPoint(_destructible.anchorPoint.position);
 ```
+<img class="ui image" src="../images/riotbusters_02.jpg">
 
 Full source available at: <a href="https://github.com/zee366/RiotBusters"><i class="large github icon "></i>Riot Busters</a>
 
