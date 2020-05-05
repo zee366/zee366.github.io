@@ -12,6 +12,7 @@ labels:
 summary: Control a squad of police to stop AI rioters from destryoying the city!
 ---
 
+<img class="ui image" src="../images/riotbusters_01.jpg">
 The city is in chaos as rioters run loose, destroying everything in their path! Strategically control your squad of police to deter, contain or otherwise incapacitate the rioters and keep the city safe.
 
 Riotbusters is a game created with the Unity game engine as a team project for Advaced game development at Concordia University. The game contains elements of Real-Time Strategy (RTS) games and crowd simulation.
