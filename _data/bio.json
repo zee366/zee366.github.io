@@ -5,7 +5,7 @@
     "picture": "https://zee366.github.io/images/profilepic.jpg",
     "email": "brenjaso@gmail.com",
     "website": "https://zee366.github.io",
-    "summary": "Recently completed a Bachelor of Computer Science at the Gina Cody School of Engineering and Computer Science at Concordia University in Montreal.",
+    "summary": "Bachelor of Computer Science graduate with a proven record of developing clean and clear code, adopting a leadership role for group projects, collaborating with others , and mentoring individuals. Enthusiastic about learning new technologies and strengthening my skills in software development. Strong interests in computer graphics APIs, game engines, and deep learning.",
     "location": {
       "city": "Montreal",
       "countryCode": "Canada",
@@ -21,11 +21,6 @@
         "network": "linkedin",
         "username": "brenjaso",
         "url": "https://www.linkedin.com/in/brenjaso/"
-      },
-      {
-        "network": "instagram",
-        "username": "NullTerminated",
-        "url": "https://www.instagram.com/nullterminated/"
       }
     ]
   },
